@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<title>Theatre</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Storyteller.">
+<link rel="canonical" href="http://localhost:4000/">
+
+<link rel="shortcut icon" href="favicon.ico" />
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.16/css/uikit.min.css" />
+
+<!-- UIkit JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.42/js/uikit.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.42/js/uikit-icons.min.js"></script>
+    <script src="uikit/dist/js/uikit-icons.min.js"></script>
+
+        <style type="text/css">
+          body {
+    font-family: Helvetica,Arial,sans-serif;
+    background-color: rgba(0, 0, 0, 0);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: 0;
+}
+#fullscreen {
+  top: 0;
+  left: 0;
+  min-height: 100%;
+  min-width: 100%;
+  width: auto;
+  height: auto;
+  display: block;
+  position: fixed;
+  z-index: -999;
+  opacity: 0.8;
+}
+
+#avion-img {
+  border-radius: 50%;
+  width: 450px;
+  height: 450px;
+}
+
+.storyteller-text {
+  color: rgba(38, 12, 12, 0.97);
+  padding: 20px;
+}
+
+}
+h1 {
+    color: white;
+    font-weight: normal;
+    letter-spacing: 0.1em;
+    font-size: 4em;
+    font-family: Helvetica;
+    margin: -10px 0;
+}
+h3 {
+    color: white;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+.content {
+    padding-top: 100px;
+    padding-bottom: 40px;
+    background-color: rgba(0, 0, 0, 0);
+    text-align: center;
+}
+
+a {
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+}
+.description {
+    display: none;
+}
+
+.shortstories-grid {
+  padding: 10px;
+}
+
+#photos-inst{
+  -webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
+     -moz-animation: fadein 5s; /* Firefox < 16 */
+      -ms-animation: fadein 5s; /* Internet Explorer */
+       -o-animation: fadein 5s; /* Opera < 12.1 */
+          animation: fadein 5s;
+}
+
+/* Actor Page Gallery */
+.actor-gallery{
+  margin: 10px 30px;
+}
+
+.actor-gallery img{
+  width: 300px;
+  padding: 5px;
+  filter: grayscale(100%);
+  transition: 1s;
+}
+
+.actor-gallery img:hover{
+  filter: grayscale(0);
+  transform: scale(1.1);
+}
+
+
+}
+        </style>
+    </head>
+    <body>
+
+      <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
+    <div class="uk-navbar-left">
+
+        <ul class="uk-navbar-nav">
+            <li class=""><a href="storyteller.html">Fiction</a></li>
+            <a class="uk-navbar-item uk-logo" href="http://127.0.0.1:4000">Natalia Go</a>
+            <li class="uk-active"><a href="theatre.html">Theatre</a></li>
+            <li><a href="poems.html">Poems</a></li>
+            <li><a href="developer.html">Web Development</a></li>
+            <li><a href="nonprofit.html">Nonprofit</a></li>
+        </ul>
+
+    </div>
+</nav>
+
+<!--
+BODY -->
+
+
+          <div class="content uk-container-large">
+
+    <img src="book-bg.jpg" id="fullscreen">
+
+    <p id="photos-inst" uk-text-muted class="uk-text-center uk-text-large storyteller-text">Hover and click photos to enlarge.</p>
+
+<div class="actor-gallery uk-grid-collapse uk-flex-center uk-container-medium" uk-grid uk-lightbox>
+  <a href="beki.jpg"
+      data-caption="My Philippine theatre debut as Beki the Cow in Jack and the Beanstalk the Musical.">
+    <img src="beki_small.jpg" alt=""></a>
+  <a href="bingo1.jpg"
+      data-caption="Playing Joan in Edward Bond's Bingo, Tales of Money and Death, and Shakespeare by the Improbable Fictions, Tuscaloosa, Alabama.">
+    <img src="bingo1_small.jpg" alt=""></a>
+  <a href="gertrude_hamlet.jpg"
+      data-caption="As Queen Gertrude with Hamlet in Shakespeare's Hamlet by Ikarus Collaborative, Philippines.">
+    <img src="gertrude_hamlet_small.jpg" alt=""></a>
+  <a href="gertrude.jpg"
+      data-caption="Queen Gertrude in one of the most challenging scenes in Hamlet.">
+    <img src="gertrude_small.jpg" alt=""></a>
+</div>
+
+
+
+    </div>
+
+
+
+
+
+      </body>
+</html>

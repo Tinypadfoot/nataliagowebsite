@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<title>Storyteller</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Storyteller.">
+<link rel="canonical" href="http://localhost:4000/">
+
+<link rel="shortcut icon" href="favicon.ico" />
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.16/css/uikit.min.css" />
+        <style type="text/css">
+          body {
+    font-family: Helvetica,Arial,sans-serif;
+    background-color: rgba(0, 0, 0, 0);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: 0;
+}
+#fullscreen {
+  top: 0;
+  left: 0;
+  min-height: 100%;
+  min-width: 100%;
+  width: auto;
+  height: auto;
+  display: block;
+  position: fixed;
+  z-index: -999;
+  opacity: 0.8;
+}
+
+#avion-img {
+  border-radius: 50%;
+  width: 450px;
+  height: 450px;
+}
+
+.storyteller-text {
+  color: rgba(38, 12, 12, 0.97);
+  padding: 20px;
+}
+
+}
+h1 {
+    color: white;
+    font-weight: normal;
+    letter-spacing: 0.1em;
+    font-size: 4em;
+    font-family: Helvetica;
+    margin: -10px 0;
+}
+h3 {
+    color: white;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+.content {
+    padding-top: 100px;
+    padding-bottom: 40px;
+    background-color: rgba(0, 0, 0, 0);
+    text-align: center;
+}
+
+a {
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+}
+.description {
+    display: none;
+}
+
+@media (max-width: 450px) {
+ul {
+    text-align: center;
+}
+li {
+    border-radius: 0%;
+    border: none;
+    color: white;
+    margin: 8px;
+    display: block;
+    list-style: none;
+    margin: 10px 0px;
+    text-align: center;
+    height: auto;
+    width: auto;
+}
+li:hover {
+    background-color: none;
+    transition: none;
+}
+a {
+    text-align: justify;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+    padding: 15px;
+    padding-left: 30px;
+    width: 70%;
+}
+a:hover {
+    -webkit-transition: 500ms;
+    -moz-transition: 500ms;
+    transition: 500ms;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-decoration: none;
+}
+.description {
+    display: inline-block;
+    color: white;
+    font-family: Helvetica;
+    margin-left: 40px;
+}
+.content {
+    padding-top: 20px;
+}
+
+.shortstories-grid {
+  padding: 10px;
+}
+}
+        </style>
+    </head>
+    <body>
+
+      <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
+    <div class="uk-navbar-left">
+
+        <ul class="uk-navbar-nav">
+            <li class="uk-active"><a href="#">Fiction</a></li>
+            <a class="uk-navbar-item uk-logo" href="http://127.0.0.1:4000">Natalia Go</a>
+            <li><a href="theatre.html">Theatre</a></li>
+            <li><a href="poems.html">Poems</a></li>
+            <li><a href="developer.html">Web Development</a></li>
+            <li><a href="nonprofit.html">Nonprofit</a></li>
+        </ul>
+
+    </div>
+</nav>
+
+<!--
+BODY -->
+
+
+          <div class="content uk-container-large">
+
+    <img src="book-bg.jpg" id="fullscreen">
+    <div class="uk-container">
+      <img src="avion3.jpg" id="avion-img" alt="planet avion">
+    </div>
+
+    <div class="uk-container">
+      <p class="storyteller-text">
+        Planet Avion is covered entirely by water. When humans saw it fit to terraform and inhabit,
+        they built manmade islands, underwater districts, and flying cities.
+        With the new government in place, technology is advancing but art is dying.
+        Lilah, an unsuccessful performing artist meets new friends
+        who would help her transform the future of theatre in this strange new world.
+        This is the story of <a href="#">Lilah and the Suspension of Disbelief.</a>
+        A sci-fi fantasy novel in the works of being published .
+      </p>
+    </div>
+
+    <br>
+    <br>
+    <br>
+
+
+    <div class="uk-container storyteller-text">
+      <h1 class="">Short Stories</h1>
+
+      <div class="uk-container">
+        <p>
+          I write mostly speculative science fiction.
+          You can find two of my short stories under the same genre
+          in Amazon Kindle.
+        </p>
+      </div>
+
+      <div class="uk-grid-small uk-flex-center shortstories-grid storyteller-text" uk-grid>
+          <a href="https://www.amazon.com/dp/B01N7XUEJ1"><img src="interfinity.jpg" alt=""></a>
+          <a href="https://www.amazon.com/dp/B06XC4KWSX"><img src="vitality.jpg" alt=""></a>
+      </div>
+
+
+    </div>
+
+
+    </div>
+
+
+</div>
+
+
+
+        </div>
+
+
+      </body>
+</html>
