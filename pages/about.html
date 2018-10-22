@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-<title>Theatre</title>
+<title>About</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="Storyteller.">
 <link rel="canonical" href="http://localhost:4000/">
@@ -12,13 +12,6 @@
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.16/css/uikit.min.css" />
-
-<!-- UIkit JS -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.42/js/uikit.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.42/js/uikit-icons.min.js"></script>
-    <script src="uikit/dist/js/uikit-icons.min.js"></script>
-
         <style type="text/css">
           body {
     font-family: Helvetica,Arial,sans-serif;
@@ -44,9 +37,9 @@
 }
 
 #avion-img {
-  border-radius: 50%;
-  width: 450px;
-  height: 450px;
+  border-radius: 25%;
+  width: 25%;
+  height: 50%;
 }
 
 .storyteller-text {
@@ -84,37 +77,6 @@ a {
     display: none;
 }
 
-.shortstories-grid {
-  padding: 10px;
-}
-
-#photos-inst{
-  -webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
-     -moz-animation: fadein 5s; /* Firefox < 16 */
-      -ms-animation: fadein 5s; /* Internet Explorer */
-       -o-animation: fadein 5s; /* Opera < 12.1 */
-          animation: fadein 5s;
-}
-
-/* Actor Page Gallery */
-.actor-gallery{
-  margin: 10px 30px;
-}
-
-.actor-gallery img{
-  width: 300px;
-  padding: 5px;
-  filter: grayscale(100%);
-  transition: 1s;
-}
-
-.actor-gallery img:hover{
-  filter: grayscale(0);
-  transform: scale(1.1);
-}
-
-
-}
         </style>
     </head>
     <body>
@@ -123,13 +85,13 @@ a {
     <div class="uk-navbar-left">
 
         <ul class="uk-navbar-nav">
-            <li class=""><a href="storyteller.html">Fiction</a></li>
+            <li><a href="storyteller.html">Fiction</a></li>
             <a class="uk-navbar-item uk-logo" href="https://tinypadfoot.github.io/nataliagowebsite/">Natalia Go</a>
-            <li class="uk-active"><a href="theatre.html">Theatre</a></li>
+            <li><a href="theatre.html">Theatre</a></li>
             <li><a href="poems.html">Poems</a></li>
             <li><a href="developer.html">Web Development</a></li>
             <li><a href="nonprofit.html">Nonprofit</a></li>
-            <li><a href="about.html">About</a></li>
+            <li class="uk-active"><a href="about.html">About</a></li>
         </ul>
 
     </div>
@@ -142,30 +104,23 @@ BODY -->
           <div class="content uk-container-large">
 
     <img src="book-bg.jpg" id="fullscreen">
-
-    <p id="photos-inst" uk-text-muted class="uk-text-center uk-text-large storyteller-text">Hover and click photos to enlarge.</p>
-
-<div class="actor-gallery uk-grid-collapse uk-flex-center uk-container-medium" uk-grid uk-lightbox>
-  <a href="beki.jpg"
-      data-caption="My Philippine theatre debut as Beki the Cow in Jack and the Beanstalk the Musical.">
-    <img src="beki_small.jpg" alt=""></a>
-  <a href="bingo1.jpg"
-      data-caption="Playing Joan in Edward Bond's Bingo, Tales of Money and Death, and Shakespeare by the Improbable Fictions, Tuscaloosa, Alabama.">
-    <img src="bingo1_small.jpg" alt=""></a>
-  <a href="gertrude_hamlet.jpg"
-      data-caption="As Queen Gertrude with Hamlet in Shakespeare's Hamlet by Ikarus Collaborative, Philippines.">
-    <img src="gertrude_hamlet_small.jpg" alt=""></a>
-  <a href="gertrude.jpg"
-      data-caption="Queen Gertrude in one of the most challenging scenes in Hamlet.">
-    <img src="gertrude_small.jpg" alt=""></a>
-</div>
-
-
-
+    <div class="uk-container">
+      <img src="natalia.jpg" id="avion-img" alt="planet avion">
     </div>
 
+    <div class="uk-container">
+      <p class="storyteller-text">
+        Natalia Go is a Filipino speculative science fiction writer living in the US.
+        Her works include Interfinity and Vitality published on Amazon Kindle.
+        She is fond of writing stories with lesbian protagonists in the near-future setting.
+        She likes to imagine progressive worlds where humanity is not held back by religion.
+        Outside of her writing career, she is a theatre actor and a budding web developer.
+      </p>
+    </div>
 
-
+    <br>
+    <br>
+    <br>
 
 
       </body>
